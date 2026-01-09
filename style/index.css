@@ -190,3 +190,64 @@ nav .menu a{
     font-weight: 700;
     line-height: 20px;
 }
+#menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+#menu h2{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+#menu p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    
+}
+.footer-section{
+   background-color:#001931;
+   padding: 120px 120px 30px 120px;
+
+}
+.footer-section .footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.footer-container .link-container{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.footer-container .link-container h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+    font-weight: 500; 
+    text-align: right;
+
+}
+.link-container .link{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: right;
+}
+.footer-section .footer{
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
